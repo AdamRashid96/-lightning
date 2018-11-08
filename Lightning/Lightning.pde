@@ -11,9 +11,9 @@ void setup() {
   strokeWeight(4);
   background(220);
   startX = 0;
-  startY = 150; 
+  startY = 250; 
   endX = 0;
-  endY = 150;
+  endY = 250;
 }
 void draw() {
 
@@ -28,9 +28,9 @@ void draw() {
 }
 void mousePressed() {
   startX = 0;
-  startY = 150; 
+  startY = 250; 
   endX = 0;
-  endY = 150;
+  endY = 250;
   lightningColorR =(int) (Math.random() * 255);
   lightningColorG =(int) (Math.random() * 255);
   lightningColorB =(int) (Math.random() * 255);
