@@ -1,3 +1,4 @@
+/* @pjs preload="marioBackground.jpg"; */
 Board theBoard; //<>//
 Yoshi player1;
 Flagpole flag;
